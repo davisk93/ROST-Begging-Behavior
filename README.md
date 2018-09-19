@@ -8,11 +8,11 @@ Honest signaling mechanisms between parents and offspring, such as begging, func
 [HY_Parent_Begs.csv](https://github.com/davisk93/ROST-Begging-Behavior/blob/master/HY_Parent_Begs.csv): This file contains begging interactions between uniquely marked HY ROST "HY" and adult ROST "Receiving". Known parents of each HY are included in "Adult". If HY ROST begging behavior was directed at a known parent, the "Parent" column has a "1" and "0" otherwise. 
 
 [ROST_BegData.csv](https://github.com/davisk93/ROST-Begging-Behavior/blob/master/ROST_BegData.csv): This file contains data from 970 focal samples from 664 uniquely marked HY ROST. 
-"PFR": HY ROST unique ID
-"SITE": Study site at Cape Cod National Seashore where focal sample recorded
-"DayNum": Day of season that focal sample recorded
-"HOUR": Hour of sample
-"TIME": Time of sample
-"BEG": Total number of begging events recorded during the five-minute focal sample
+"PFR": HY ROST unique ID;
+"SITE": Study site at Cape Cod National Seashore where focal sample recorded;
+"DayNum": Day of season that focal sample recorded;
+"HOUR": Hour of sample;
+"TIME": Time of sample;
+"BEG": Total number of begging events recorded during the five-minute focal sample.
 ## Code
 [ROST_BegAnalysis](https://github.com/davisk93/ROST-Begging-Behavior/blob/master/ROST_BegAnalysis.R): R code to complete begging behavior analyses
