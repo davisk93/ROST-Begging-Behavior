@@ -4,7 +4,7 @@
 
 #set working directory
 #location on local computer where data files saved
-setwd("G://My Drive//R Working Directory//ROST//Beg") 
+setwd("") 
 
 #load libraries
 #these packages must be installed first before this can run
@@ -187,7 +187,7 @@ tail(newdata)
 
 #create a figure of model-averaged predictions
 Day.fig<-ggplot(newdata, aes(x = Day, y = fit)) + geom_ribbon(aes(ymin = lwr,
-                                                                  ymax = upr),alpha=0.2) + geom_line(size = 2) + ylim(c(0, 4))+
+                ymax = upr),alpha=0.2) + geom_line(size = 2) + ylim(c(0, 4))+
   theme_bw() +
   xlab("Day of Season") +
   ylab("Beg Events per Focal Sample") +
@@ -202,7 +202,7 @@ Day.fig<-ggplot(newdata, aes(x = Day, y = fit)) + geom_ribbon(aes(ymin = lwr,
 Day.fig
 
 #this code creates a higher resolution image and saves as png to filepath below
-png(filename = "G://My Drive//R Working Directory//ROST//Beg//DayBegging.png", width = 480 * 16, height = 480 * 12,  pointsize = 12 * 1.5, res = 600)
+png(filename = "~//DayBegging.png", width = 480 * 16, height = 480 * 12,  pointsize = 12 * 1.5, res = 600)
 Day.fig
 dev.off()
 
@@ -228,7 +228,7 @@ tail(newdata.t)
 
 #code for time figure
 Time.fig<-ggplot(newdata.t, aes(x = Time_ma, y = fit)) + geom_ribbon(aes(ymin = lwr,
-                                                                         ymax = upr),alpha=0.2) + geom_line(size = 2) + ylim(c(0, 3))+xlim(c(7,19))+
+                 ymax = upr),alpha=0.2) + geom_line(size = 2) + ylim(c(0, 3))+xlim(c(7,19))+
   scale_x_continuous(breaks=seq(1,24,1))+
   theme_bw() +
   xlab("Hour of Day") +
@@ -241,6 +241,6 @@ Time.fig<-ggplot(newdata.t, aes(x = Time_ma, y = fit)) + geom_ribbon(aes(ymin = 
   theme(panel.grid.major = element_blank()) +
   theme(legend.position="none")
 #this code creates a higher resolution image and saves as png to filepath below
-png(filename = "G://My Drive//R Working Directory//ROST//Beg//TimeBegging.png", width = 480 * 16, height = 480 * 12,  pointsize = 12 * 1.5, res = 600)
+png(filename = "~//TimeBegging.png", width = 480 * 16, height = 480 * 12,  pointsize = 12 * 1.5, res = 600)
 Time.fig
 dev.off()
