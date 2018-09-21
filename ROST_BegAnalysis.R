@@ -213,7 +213,7 @@ dev.off()
 newdata.t <- expand.grid(hour_z= with(df, seq(min(hour_z), max(hour_z), length.out=25)),
                          day_z = mean(day_z))
 
-Time_ma<- with(data, seq(from = 7, to = 19, length.out = 25))
+Time_ma<- with(df, seq(from = 7, to = 19, length.out = 25))
 
 # Calculate Predicitons with standard errors, and confidence intervals subsequently
 pred.se.t <- predict(avg, type="response", se.fit=TRUE, re.form=NA, full=T, newdata.t)
