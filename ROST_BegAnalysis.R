@@ -240,6 +240,7 @@ Time.fig<-ggplot(newdata.t, aes(x = Time_ma, y = fit)) + geom_ribbon(aes(ymin = 
   theme(panel.grid.minor = element_blank()) + 
   theme(panel.grid.major = element_blank()) +
   theme(legend.position="none")
+Time.fig
 #this code creates a higher resolution image and saves as png to filepath below
 png(filename = "~//TimeBegging.png", width = 480 * 16, height = 480 * 12,  pointsize = 12 * 1.5, res = 600)
 Time.fig
