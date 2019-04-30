@@ -18,6 +18,6 @@ Honest signaling mechanisms can function to appropriate care to hungry offspring
 "TIME": Time of sample;
 "BEG": Total number of begging events recorded during the five-minute focal sample.
 
-[ROST_BegBandingData.csv](https://github.com/davisk93/ROST-Begging-Behavior/blob/master/ROST_BegBandingData.csv): This file contains known banding dates for 506 HY ROST. These data are used to test the correlation between HY ROST banding date and days since first observation on the Cape Cod staging grounds. 
+[ROST_BegBandingData_Github.csv](https://github.com/davisk93/ROST-Begging-Behavior/blob/master/ROST_BegBandingData.csv): This file contains known banding dates for 504 HY ROST. These data are used to test the correlation between HY ROST banding date and days since first observation on the Cape Cod staging grounds. Results of this analysis are described in Appendix 1 of the publication. 
 ## Code
 [ROST_BegAnalysis](https://github.com/davisk93/ROST-Begging-Behavior/blob/master/ROST_BegAnalysis.R): R code to complete begging behavior analyses
