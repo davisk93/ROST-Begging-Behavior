@@ -1,7 +1,10 @@
 # Begging Behavior as an Honest Signal of Need and Parent-Offspring Association in Roseate Terns 
-[![DOI](https://zenodo.org/badge/149470858.svg)](https://zenodo.org/badge/latestdoi/149470858)
 
-Davis, K.L., S.M. Karpanty, J.A. Spendelow, J.B. Cohen, M.A. Althouse, K.C. Parsons, C.F. Luttazi. 
+## Davis, K.L., S.M. Karpanty, J.A. Spendelow, J.B. Cohen, M.A. Althouse, K.C. Parsons, C.F. Luttazi. 
+
+## Ecology and Evolution
+
+## Code/Date DOI:[![DOI](https://zenodo.org/badge/149470858.svg)](https://zenodo.org/badge/latestdoi/149470858)
 
 ### Please contact the first author for questions about the data or code: Kayla Davis (davisk93@msu.edu)
 _______________________________________________________________________________________________________________________________________
