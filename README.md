@@ -4,7 +4,7 @@
 
 ### Ecology and Evolution
 
-### Code/Data DOI:[![DOI](https://zenodo.org/badge/149470858.svg)](https://zenodo.org/badge/latestdoi/149470858)
+### Code/Data DOI:[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2656718.svg)](https://doi.org/10.5281/zenodo.2656718)
 
 ### Please contact the first author for questions about the data or code: Kayla Davis (davisk93@msu.edu)
 _______________________________________________________________________________________________________________________________________
