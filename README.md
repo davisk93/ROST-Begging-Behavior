@@ -1,4 +1,4 @@
-# Begging Behavior as an Honest Signal of Need and Parent-Offspring Association in Roseate Terns 
+# Begging Behavior as an Honest Signal of Need and Parent-Offspring Association During the Post-fledging Dependency Period
 
 ### Davis, K.L., S.M. Karpanty, J.A. Spendelow, J.B. Cohen, M.A. Althouse, K.C. Parsons, C.F. Luttazi. 
 
